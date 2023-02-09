@@ -10,11 +10,12 @@
 </head>
 
 <body>
+  <h1>Download a video</h1>
   <div class="column">
     <div id="save-location"></div>
     <button id="select-save-location">Select save location</button>
-    <form id="downloadForm">
-      <label><input type="text" name="url" required></label>
+    <form id="downloadForm" class="column">
+      <label>Video URL: <br><input type="text" name="url" required></label>
       <button>Download</button>
     </form>
     <div id="success"></div>
